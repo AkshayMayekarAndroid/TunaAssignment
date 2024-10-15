@@ -1,6 +1,6 @@
-package com.example.tunaassignment.data.Source.mappers
+package com.example.tunaassignment.data.source.mappers
 
-import com.example.tunaassignment.data.Source.DTO.TestDto
+import com.example.tunaassignment.data.source.dto.TestDto
 import com.example.tunaassignment.domain.model.Test
 
 fun List<TestDto>.toTestList(): List<Test> {

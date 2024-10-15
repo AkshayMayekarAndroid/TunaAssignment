@@ -35,13 +35,10 @@ fun ItemList(testViewModel: MainViewModel) {
                     }
                 }
             }
-
         }
         is ResponseState.Error ->{}
         else -> {}
     }
-    // LazyColumn to display the list
-
 }
 
 @Composable
@@ -52,11 +49,9 @@ fun ListItem(item: Test) {
             Text(
                 text = it,
                 fontSize = 20.sp,
-                modifier = Modifier
-                    .fillMaxSize()
+                modifier = Modifier.fillMaxSize()
             )
         }
-
     }
 }
 

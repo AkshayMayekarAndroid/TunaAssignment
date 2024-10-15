@@ -1,6 +1,6 @@
-package com.example.tunaassignment.data.Source.Api
+package com.example.tunaassignment.data.source.Api
 
-import com.example.tunaassignment.data.Source.DTO.TestDto
+import com.example.tunaassignment.data.source.dto.TestDto
 import com.example.tunaassignment.domain.ResponseState
 import io.ktor.client.HttpClient
 import io.ktor.client.request.*

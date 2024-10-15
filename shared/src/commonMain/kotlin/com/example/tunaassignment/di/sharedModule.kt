@@ -1,6 +1,6 @@
 package com.example.tunaassignment.di
 
-import com.example.tunaassignment.data.Source.Api.ApiClient
+import com.example.tunaassignment.data.source.Api.ApiClient
 import com.example.tunaassignment.data.repository.TestRepositoryImpl
 import com.example.tunaassignment.domain.repository.TestRepository
 import io.ktor.client.HttpClient

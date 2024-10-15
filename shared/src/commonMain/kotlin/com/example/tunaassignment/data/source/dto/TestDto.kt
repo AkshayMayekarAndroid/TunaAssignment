@@ -1,4 +1,4 @@
-package com.example.tunaassignment.data.Source.DTO
+package com.example.tunaassignment.data.source.dto
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
